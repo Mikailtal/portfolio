@@ -2855,8 +2855,8 @@ html[dir=rtl] .notifications-container .notify-leave-active {
 }
 .hero-section .hero-img .layer:first-of-type {
   height: 100%;
-  -webkit-mask-image: url("../assets/images/splash.png");
-          mask-image: url("../assets/images/splash.png");
+  -webkit-mask-image: url("https://iili.io/HnE6tQ2.png");
+          mask-image: url("https://iili.io/HnE6tQ2.png");
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3001,6 +3001,7 @@ html[dir=ltr] .hero-section .hero-text h2 {
   .hero-section .hero-text h2 {
     color: hsl(var(--light-color)) !important;
     font-size: 3rem;
+    margin-top: 110px;
   }
 }
 @media (max-width: 991px) {
@@ -3311,8 +3312,8 @@ html[dir=rtl] .statistics-section .section-content .statistics-items a > .fa {
 }
 .about-section .section-content .about-img .layer:first-of-type {
   height: 100%;
-  -webkit-mask-image: url("../assets/images/blob-shape.png");
-          mask-image: url("../assets/images/blob-shape.png");
+  -webkit-mask-image: url("https://iili.io/HnEPynp.png");
+          mask-image: url("https://iili.io/HnEPynp.png");
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3328,8 +3329,8 @@ html[dir=rtl] .statistics-section .section-content .statistics-items a > .fa {
   height: 80%;
   width: 80%;
   background: linear-gradient(150deg, hsl(var(--main-color-one)) 0%, hsl(var(--main-color-two)) 100%);
-  -webkit-mask-image: url("../assets/images/blob-shape.png");
-          mask-image: url("../assets/images/blob-shape.png");
+  -webkit-mask-image: url("https://iili.io/HnEPynp.png");
+          mask-image: url("https://iili.io/HnEPynp.png");
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;

@@ -8,7 +8,7 @@
     <meta name="keywords" content="portfolio, agency, business, clean, company, corporate, creative, gallery, rtl, modern, photography, vue, vuejs, responsive, sass">
 
     <!-- title of the browser tab -->
-    <title>Nafie - HTML Portfolio Template</title>
+    <title>Navaneeth Portfolio </title>
 
     <!-- favicon -->
     <link rel="icon" href="assets/favicon.ico">
@@ -16,7 +16,7 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Saira+Stencil+One&text=Nafie&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Saira+Stencil+One&text=Navaneeth&display=swap">
 
     <!-- css libraries file -->
     <link rel="stylesheet" href="styles/libraries.min.css">
@@ -60,8 +60,8 @@
         }">
           <div class="container">
             <!-- logo -->
-            <div class="logo" title="Nafie">
-              <h1><a href="index.html">Nafie</a></h1>
+            <div class="logo" title="Navanaeeth">
+              <h1><a href="index.html">Navaneeth</a></h1>
             </div>
 
             <!-- nav links -->
@@ -170,7 +170,7 @@
           ref="heroSection">
           <div class="hero-img">
             <div class="layer" v-clone>
-              <img src="assets/images/hero-img.png" alt="User Name">
+              <img src="assets/images/navaneethpic3.png" alt="User Name">
             </div>
           </div>
 
@@ -232,7 +232,7 @@
                       <img src="assets/images/icons/check-mark.png" alt="Completed Projects">
                     </div>
                     <div class="text">
-                      <h3>230+</h3>
+                      <h3>100+</h3>
                       <strong>Completed Projects</strong>
                     </div>
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -244,7 +244,7 @@
                       <img src="assets/images/icons/happy.png" alt="Happy Clients">
                     </div>
                     <div class="text">
-                      <h3>95+</h3>
+                      <h3>55+</h3>
                       <strong>Happy Clients</strong>
                     </div>
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -278,7 +278,7 @@
                     I can Help You!
                   </h2>
                   <p>
-                    Hi! I’m Muhammad Mabrouk, and I’m a developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
+                    I’m an Indian  Graphic designer based in Kerala and available for full-time roles & freelance projects.. My designs get completed by Interacting with my clients and I believe every design must convey a story or situation to trigger the viewer's senses.  I create high-quality design strategies to address their goals.
                   </p>
                   <div class="btns-container">
                     <a href="#contact" class="btn btn-primary">Hire Me</a>
@@ -301,7 +301,7 @@
                 <div class="text-box-inline">
                   <span class="subtitle">my skills</span>
                   <h2>
-                    What My Programming
+                    What My
                     <br>
                     Skills Included?
                   </h2>
@@ -392,7 +392,7 @@
                     With Many Awards!
                   </h2>
                   <p>
-                    I have been developing sites and apps for {{ experienceYears }} years and i know for sure the main trends and directions of modern design, I have been a visionary and a reliable software engineering partner for world-class brands. You will get a decent result as you expect.
+                    I have been developing interactive designs for {{ experienceYears }} years and i know for sure the main trends and directions of modern design, I have been a visionary and a reliable graphic design partner for world-class brands. You will get a decent result as you expect.
                   </p>
                 </div>
               </div>
@@ -418,7 +418,7 @@
                       Will Amaze You!
                     </h2>
                     <p>
-                      We develop the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.
+                      We develop the best quality designs that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.
                     </p>
                     <ul class="works-filter">
                       <li v-for="filter in filters" :key="filter">
@@ -433,11 +433,19 @@
 
                 <!-- start items list -->
                 <li class="portfolio-item"
-                  v-for="work in filteredPortfolioItems"
+                  v-for="work in filteredPortfolioItems.filter(filteredPortfolioItems => filteredPortfolioItems.imgtype === 'img')"
                   :key="work.title.en">
+
                   <a :href="work.url" target="_blank" rel="noopener">
                     <div class="item-img">
                       <img :src="work.imgUrl" :alt="work.title.en">
+
+
+                      <!-- <video :src="work.imgUrl" width="320" height="240" autoplay poster="posterimage.jpg":alt="work.title.en"></video> -->
+
+                      <!-- <video src={{work.url}} width="320" heuautoplay poster="posterimage.jpg">
+
+                      </video> -->
                     </div>
                     <div class="item-details">
                       <h3 class="title">{{ work.title.en }}</h3>
@@ -446,6 +454,30 @@
                   </a>
                 </li>
                 <!-- end items list -->
+                <!-- start items list -->
+                <li class="portfolio-item"
+                  v-for="work in filteredPortfolioItems.filter(filteredPortfolioItems => filteredPortfolioItems.imgtype === 'vdo')"
+                  :key="work.title.en">
+
+                  <a :href="work.url" target="_blank" rel="noopener">
+                    <div class="item-img">
+                      <!-- <img :src="work.imgUrl" :alt="work.title.en"> -->
+
+
+                      <video :src="work.imgUrl" width="420" height="340" autoplay poster="posterimage.jpg":alt="work.title.en"></video>
+
+                      <!-- <video src={{work.url}} width="320" heuautoplay poster="posterimage.jpg">
+
+                      </video> -->
+                    </div>
+                    <div class="item-details">
+                      <h3 class="title">{{ work.title.en }}</h3>
+                      <div class="date">{{ work.date.en }}</div>
+                    </div>
+                  </a>
+                </li>
+                <!-- end items list -->
+
 
                 <li>
                   <button class="more" @click="getPortfolioItems">Load more works</button>
@@ -535,8 +567,8 @@
                     <div>
                       <strong>Email:</strong>
                       <ul>
-                        <li><a href="mailto:info@nafie.com">info@nafie.com</a></li>
-                        <li><a href="mailto:support@nafie.com">support@nafie.com</a></li>
+                        <li><a href="mailto:navaneethreghunath@gmail.com">navaneethreghunath@gmail</a></li>
+                        <li><a href="mailto:navaneethreghunath@gmail.com">navaneethreghunath@gmail</a></li>
                       </ul>
                     </div>
                   </li>

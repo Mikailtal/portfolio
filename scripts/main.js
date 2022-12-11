@@ -451,7 +451,7 @@
     data() {
       return {
         // the date my career started (change to yours)
-        careerStartDate: 2010,
+        careerStartDate: 2017,
         // the date copyright started (change to yours)
         copyrightStartDate: 2021,
         // for the template theme
@@ -585,60 +585,60 @@
         }],
         // list of experience items to loop through it
         experienceItems: [{
-          date: '2010',
+          date: '2017',
           companyName: {
-            en: 'Google Inc.',
-            ar: 'شركة جوجل'
+            en: 'TRAVANCORE TALES',
+
           },
           jobTitle: {
-            en: 'Front-End Developer',
-            ar: 'مطور الواجهة الأمامية'
+            en: 'INTERNSHIP',
+
           },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+            en: 'LEARNED THE BASICS OF GRAPHIC DESIGNING & MASTERED THE SOFTWARES . DESIGNED FOR FOOD BRANDS',
+
           }
         }, {
-          date: '2012',
+          date: '2018',
           companyName: {
-            en: 'Facebook Inc.',
+            en: 'MALL OF TRAVANCORE',
             ar: 'شركة فيسبوك'
           },
           jobTitle: {
-            en: 'Full Stack Developer',
-            ar: 'مطوّر الويب المتكامل'
+            en: 'GRAPHIC DESIGNER',
+
           },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
+            en: 'DESIGNED FOR THE FIRST MALL IN THIRUVANANTHAPURAM . MANAGED SOCIAL MEDIA & MARKETING ',
+
           }
         }, {
-          date: '2014',
+          date: '2020',
           companyName: {
-            en: 'Envato Inc.',
-            ar: 'شركة انفاتو'
+            en: 'FREELANCING',
+
           },
           jobTitle: {
-            en: 'UI/UX Developer',
-            ar: 'مطور UI/UX'
+            en: 'FREELANCE GRAPHIC DESIGNER',
+
           },
           desc: {
-            en: 'Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.',
-            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
+            en: ' DESIGNED FOR BRANDS LIKE FARNBRO FURNITURE, RESONANZ CAREER & BASKIN ROBBINS',
+
           }
         }, {
-          date: '2016',
+          date: '2021',
           companyName: {
-            en: 'Google Inc.',
-            ar: 'شركة جوجل'
+            en: 'WELGATE ORGANIC',
+
           },
           jobTitle: {
-            en: 'Front-End Developer',
-            ar: 'مطور الواجهة الأمامية'
+            en: 'SENIOR  DESIGN MANAGER',
+
           },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+            en: 'JOINED THE LARGEST ORGANIC FOOD & GROCERY DEALERS IN INDIA. DESIGNING FOR THEIR BRAND',
+
           }
         }, {
           date: '2018',
