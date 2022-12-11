@@ -1,6 +1,6 @@
 <?php
 
-$mail_to  = "jeevanpualur@gmail.com";  // replace it with your email
+$mail_to  = "jeevanpunalur@gmail.com";  // replace it with your email
 
 $name     = $_POST['name'];
 $email    = $_POST['email'];
