@@ -60,7 +60,7 @@
         }">
           <div class="container">
             <!-- logo -->
-            <div class="logo" title="Navanaeeth">
+            <div class="logo" title="Navaneeth">
               <h1><a href="index.html">Navaneeth</a></h1>
             </div>
 
@@ -86,7 +86,7 @@
                       I love making things simple, intuitive and expertly crafted!
                     </p>
                     <h4 class="block-title">
-                      Product is the vital essence of what i do, truly great product is born of meticulous planning and process. This is where i specialized!
+                      I’m a passionate movie lover & Screenplay writer who loves to travel. I’m crazy about football,& a proud  Messi fan. Strong follower of evidence-based scientific lifestyle
                     </h4>
                   </div>
 
@@ -103,17 +103,17 @@
                       <h4 class="block-title">Address</h4>
                       <ul>
                         <li>
-                          941 saqrqorish Road, alandalos,
+                          THIRUVANANTHAPURAM,
                           <br>
-                          grnata, wa 47122-4194
+                          KERALA
                         </li>
                       </ul>
                     </li>
                     <li class="col-lg-4">
                       <h4 class="block-title">Phone</h4>
                       <ul>
-                        <li><a href="tel:02966202290">(02) 966 202 290</a></li>
-                        <li><a href="tel:02966202291">(02) 966 202 291</a></li>
+                        <li><a href="tel:02966202290">8075286152</a></li>
+                        <li><a href="tel:02966202291">8075286152</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -127,7 +127,7 @@
               <!-- lang switcher button -->
               <li class="lang-switcher">
                 <ul class="lang-switcher-menu">
-                  <li class="menu-item menu-item-has-children">
+                  <!-- <li class="menu-item menu-item-has-children">
                     <a href="#">En</a>
 
                     <ul class="sub-menu">
@@ -138,7 +138,7 @@
                         <a href="rtl-index.html">ع</a>
                       </li>
                     </ul>
-                  </li>
+                  </li> -->
                 </ul>
               </li>
 
@@ -433,7 +433,7 @@
 
                 <!-- start items list -->
                 <li class="portfolio-item"
-                  v-for="work in filteredPortfolioItems.filter(filteredPortfolioItems => filteredPortfolioItems.imgtype === 'img')"
+                  v-for="work in filteredPortfolioItems"
                   :key="work.title.en">
 
                   <a :href="work.url" target="_blank" rel="noopener">
@@ -455,27 +455,27 @@
                 </li>
                 <!-- end items list -->
                 <!-- start items list -->
-                <li class="portfolio-item"
+                <!-- <li class="portfolio-item"
                   v-for="work in filteredPortfolioItems.filter(filteredPortfolioItems => filteredPortfolioItems.imgtype === 'vdo')"
                   :key="work.title.en">
 
                   <a :href="work.url" target="_blank" rel="noopener">
                     <div class="item-img">
-                      <!-- <img :src="work.imgUrl" :alt="work.title.en"> -->
+                      <img :src="work.imgUrl" :alt="work.title.en"> -->
 
 
-                      <video :src="work.imgUrl" width="420" height="340" autoplay poster="posterimage.jpg":alt="work.title.en"></video>
+                      <!-- <video :src="work.imgUrl" width="420" height="340" autoplay poster="posterimage.jpg":alt="work.title.en"></video> -->
 
                       <!-- <video src={{work.url}} width="320" heuautoplay poster="posterimage.jpg">
 
                       </video> -->
-                    </div>
+                    <!-- </div>
                     <div class="item-details">
                       <h3 class="title">{{ work.title.en }}</h3>
                       <div class="date">{{ work.date.en }}</div>
                     </div>
                   </a>
-                </li>
+                </li> -->
                 <!-- end items list -->
 
 
@@ -549,7 +549,7 @@
                     <img src="assets/images/icons/address.png" alt="Address">
                     <div>
                       <strong>Address:</strong>
-                      941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                    THIRUVANANTHAPURAM,KERALA
                     </div>
                   </li>
                   <li>
@@ -557,8 +557,8 @@
                     <div>
                       <strong>Phone:</strong>
                       <ul>
-                        <li><a href="tel:02966202290" class="ltr-dir">(02) 966 202 290</a></li>
-                        <li><a href="tel:02966202291" class="ltr-dir">(02) 966 202 291</a></li>
+                        <li><a href="tel:02966202290" class="ltr-dir">8075286152</a></li>
+                        <li><a href="tel:02966202291" class="ltr-dir">8075286152</a></li>
                       </ul>
                     </div>
                   </li>
@@ -691,8 +691,8 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                &copy; {{ copyrightDate }} Proudly Powered by
-                <a href="https://themeforest.net/user/webrouk/portfolio" target="_blank" rel="noopener">Webrouk</a>
+                  &copy; {{ copyrightDate }}
+                <!-- <a href="https://themeforest.net/user/webrouk/portfolio" target="_blank" rel="noopener">Webrouk</a> -->
               </div>
             </div>
           </div>
